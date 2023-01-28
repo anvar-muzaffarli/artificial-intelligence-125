@@ -1,0 +1,49 @@
+.bars-icon {
+    font-size: 34px;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,1);
+    position: fixed;
+    height: 100vh;
+    width: 0;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    transition: width .9s cubic-bezier(.17,.67,.91,-0.27);
+    overflow-x:hidden;
+}
+
+.aktiv {
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nav-links a {
+    color:white;
+    text-decoration: none;
+    font-size: 2rem;
+    
+}
+
+.cross-icon {
+    position: absolute;
+    right: 45px;
+    top: 40px;
+    font-size: 34px;
+    color:white;
+}
+
+.my-custom-btn {
+    background: #3A68B8;
+border-radius: 5px;
+padding: 10px;
+color:white;
+}
